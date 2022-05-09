@@ -1,3 +1,134 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 238px;
+  column-gap: 4px;
+  columns: 100%;
+  row-gap: 8px;
+}
+
+.a {
+  width: 97%;
+  padding: 20px;
+  align-content: center;
+  margin: 4px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.b {
+  width: 26%;
+  padding: 10%;
+  margin: 4px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.c {
+  width: 26%;
+  padding: 10%;
+  margin: 4px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.d {
+  width: 26%;
+  padding: 10%;
+  margin: 2px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.e {
+  width: 26%;
+  padding: 10%;
+  margin: 2px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.f {
+  width: 25%;
+  padding: 10%;
+  margin: 2px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.g {
+  width: 26%;
+  padding: 10%;
+  margin: 2px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.h {
+  width: 60%;
+  padding: 10%;
+  margin: 2px;
+  font-size: 5em;
+  font-family: serif;
+  text-align: center;
+  border: 8px solid navy;
+  background-color: lightgrey;
+  grid-column-start: 4;
+  grid-column-end: 25;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}

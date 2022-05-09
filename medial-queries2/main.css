@@ -4,33 +4,38 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-auto-rows: 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 238px;
+  column-gap: 8px;
+  columns: 100%;
+  row-gap: 8px;
 }
 
 .a {
-  width: 98%;
+  width: 91%;
   padding: 20px;
+  align-content: center;
   margin: 4px;
   font-size: 5em;
   font-family: serif;
   text-align: center;
-  border: 17px solid navy;
+  border: 13px solid navy;
   background-color: lightgrey;
   grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
+
 }
 
 .b {
-  width: 96%;
+  width: auto;
   padding: 20px;
   margin: 4px;
   font-size: 5em;
   font-family: serif;
   text-align: center;
-  border: 17px solid navy;
+  border: 13px solid navy;
   background-color: lightgrey;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -40,54 +45,60 @@ body {
 
 .c {
   width: 20%;
-  padding: 20px;
+  padding: 10%;
   margin: 4px;
   font-size: 5em;
   font-family: serif;
   text-align: center;
-  border: 17px solid navy;
+  border: 13px solid navy;
   background-color: lightgrey;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 3;
 }
 
 .d {
   width: 20%;
-  padding: 20px;
-  margin: 4px;
+  padding: 10%;
+  margin: 2px;
   font-size: 5em;
   font-family: serif;
   text-align: center;
-  border: 17px solid navy;
+  border: 13px solid navy;
   background-color: lightgrey;
-  grid-column-start: 4;
+  grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 3;
 }
 
 .e {
-  width: 10%;
-  padding: inherit;
-  margin: 4px;
-  font-size: 5em;
-  font-family: serif;
-  text-align: center;
-  border: 17px solid navy;
-  background-color: lightgrey;
-  grid-row: middle;
+  width: 20%;
+    padding: 10%;
+    margin: 2px;
+    font-size: 5em;
+    font-family: serif;
+    text-align: center;
+    border: 13px solid navy;
+    background-color: lightgrey;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
 }
 
 .f {
-  width: 10%;
-  padding: inherit;
-  margin: 4px;
-  font-size: 5em;
-  font-family: serif;
-  text-align: center;
-  border: 17px solid navy;
-  background-color: lightgrey;
-  grid-row: middle;
+  width: 30%;
+    padding: 10%;
+    margin: 2px;
+    font-size: 5em;
+    font-family: serif;
+    text-align: center;
+    border: 13px solid navy;
+    background-color: lightgrey;
+    grid-column-start: 4;
+    grid-column-end: 25;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
